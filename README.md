@@ -17,14 +17,15 @@
 * **Sanitization Pulse:** Every entry triggers a full microarchitectural state flush. This ensures the environment is clean, neutralizing speculative leaks and ensuring no "memory" of previous sessions persists.
 
 ## 2. THE JET SMUGGLER: POLYMORPHIC TRANSIT
-**Mission:** Secure, Anti-Fragmented Asset Movement.
-* **Double-Blind Encryption:** Data is moved in fixed-length, encrypted "purses."
-* **The ABC Shuffle:** Information is routed through a rotating sequence of hardware slots (A, B, and C). This ensures that even if a pulse is observed, it cannot be chronologically aligned or pattern-matched by an external observer.
-* **Atomic Alignment:** Assets are processed in precise, hardware-aligned bursts to ensure data integrity and eliminate "torn reads" or partial interceptions during transit across security boundaries.
+**Mission**: Secure, Anti-Fragmented Asset Movement.
+* **Double-Blind Encryption**: Data is moved in fixed-length, encrypted "purses."
+* **Randomized Slot Distribution**: Information is "shot" into hardware slots (A, B, and C) in a non-linear, randomized pattern. This structurally eliminates temporal correlation, ensuring that external interceptors cannot align or reconstruct the data stream.
+* **Atomic Alignment**: Assets are processed in precise, hardware-aligned bursts to ensure data integrity and eliminate "torn reads" or partial interceptions during transit across security boundaries.
+
 
 ## 3. THE RESEARCHER: THE IP SENTRY
 **Mission:** Isolated Multi-Realm Verification.
-* **The Logic:** A dedicated, isolated "Sentry Realm" acts as a digital cleanroom for all incoming data.
+* **The Logic:** A dedicated, isolated "Sentry ealm" acts as a digital cleanroom for all incoming data.
 * **The Process:** Assets are cross-referenced against an encrypted database within this isolated zone before they ever touch the primary vault.
 * **Total Isolation:** If the Sentry identifies a logic conflict or unauthorized code, the hardware boundary prevents the anomaly from reaching the host system or the primary archive.
 
