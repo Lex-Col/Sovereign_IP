@@ -37,13 +37,13 @@ The Vault is guarded by a dual-verification system operating at the R-EL2 hardwa
 SIPV operates on a strict **A/B Partitioning** model (Live Ledger vs. Offline Mirror). If the Deaf Bouncer detects a critical logic breach or intrusion attempt, the system does not simply crash—it executes a localized, three-phase eradication protocol.
 
 * **Phase 1: Cryptographic Coma (The Drawbridge)**
-  Upon detecting an anomaly, the hardware instantly severs the physical data bridge. The Vault Realm drops into absolute isolation, trapping the active threat inside the live partition and cutting off all exfiltration vectors.
+  Upon detecting an anomaly, the hardware instantly severs the physical data bridge. The Vault Realm drops into absolute isolation, trapping the active threat inside Partition A (The Live Ledger) and cutting off all exfiltration vectors.
   
 * **Phase 2: The Localized Purge**
-  Once trapped, the hardware executes a targeted physical memory scrub exclusively on the infected partition and vaporizes its associated encryption keys. The threat is left holding mathematically unreadable garbage, neutralizing the attack without risking the offline archive.
+  Once trapped, the hardware executes a targeted physical memory scrub exclusively on the infected partition and vaporizes its associated encryption keys. The threat is left holding mathematically unreadable garbage, neutralizing the attack without risking the entire archive.
   
-* **Phase 3: The Self-Healing Mirror**
-  With the threat eradicated, the Vault automatically pushes its pristine, air-gapped offline backup into the live partition. Full High-Availability (HA) redundancy is restored instantly. The Architect loses zero assets, and the Vault heals itself without external intervention.
+* **Phase 3: The Phoenix Realm (A/B Resurrection)**
+  Because Partition B (The Archive) is housed in its own completely isolated Realm Management Extension (RME) boundary—**The Phoenix Realm**—it is physically immune to the purge. Once the threat is eradicated, The Phoenix Realm pushes its pristine, air-gapped backup to establish a clean, fresh live partition from the ashes. Full High-Availability (HA) redundancy is restored instantly. The Architect loses zero assets, and the Vault heals itself completely.
 
 ---
 **Copyright © 2026 Alexander Colclough (@Lex-Col). ALL RIGHTS RESERVED.**
