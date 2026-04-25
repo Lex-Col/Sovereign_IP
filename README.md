@@ -1,7 +1,7 @@
 # 💎 Sovereign IP
 ### [ THE ARCHITECT'S MARK ]
 
-⚠️ **LEGAL NOTICE: UPAL V5.1.0-SOVEREIGN**
+⚠️ **LEGAL NOTICE: UPAL V5.1.3**
 This repository is governed by the Universal Proprietary Architecture License (UPAL) V5.1.0-SOVEREIGN. Possession of this logic without the Architect's Mark is a violation of the Record.
 
 ---
